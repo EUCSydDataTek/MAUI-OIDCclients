@@ -1,6 +1,6 @@
 # MAUI OidcClient demoeksempler
 
-- Projektet: **dotnet-maui-auth0-app**, som kan logge ind via Auth0. Projektet er forked fra [auth0-blog/dotnet-maui-auth0-app](https://github.com/auth0-blog/dotnet-maui-auth0-app). Projektet er beskrevet i denne blog: [Add Authentication to .NET MAUI Apps with Auth0](https://auth0.com/blog/add-authentication-to-dotnet-maui-apps-with-auth0/).
+- Projektet: **MauiAuth0App**, som kan logge ind via Auth0. Projektet er forked fra [auth0-blog/dotnet-maui-auth0-app](https://github.com/auth0-blog/dotnet-maui-auth0-app). Projektet er beskrevet i denne blog: [Add Authentication to .NET MAUI Apps with Auth0](https://auth0.com/blog/add-authentication-to-dotnet-maui-apps-with-auth0/).
 
 - Projektet: **OidcMobileClient**, som kan logge ind via Duende ItentityServer og indeholder en menu til Login, API og Logout. Her kan Duende WebApi også tilgås. Benytter demo.duendesoftware.com. [Duende .well-known/openid-configuration](https://demo.duendesoftware.com/.well-known/openid-configuration)
 
