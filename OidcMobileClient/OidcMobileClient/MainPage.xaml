@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="OidcMobileClient.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="OnLoginClicked" Text="LogIn" />
+        <ToolbarItem Clicked="OnCallAPIClicked" Text="Call API" />
+        <ToolbarItem Clicked="OnLogoutClicked" Text="LogOut" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <VerticalStackLayout
+                x:Name="HomeLayout"
+                Margin="0,30,0,20"
+                Padding="30,0"
+                Spacing="25"
+                VerticalOptions="Center">
+
+                <WebView x:Name="WebViewInstance" />
+
+                <Image
+                    HeightRequest="200"
+                    HorizontalOptions="Center"
+                    SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                    Source="dotnet_bot.png" />
+
+                <Label
+                    FontSize="32"
+                    HorizontalOptions="Center"
+                    SemanticProperties.HeadingLevel="Level1"
+                    Text="Hello, World!" />
+
+                <Label
+                    FontSize="18"
+                    HorizontalOptions="Center"
+                    SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                    SemanticProperties.HeadingLevel="Level2"
+                    Text="Welcome to .NET Multi-platform App UI" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout x:Name="OidcDataLayout">
+                <Label x:Name="OutputText" />
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
